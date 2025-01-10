@@ -21,12 +21,12 @@ node index.js
 ```
 ## API Documentation
 ### Base URLs
-Local: ```http://localhost:3000```
-Production: ```https://koinx-qn08.onrender.com```
+* Local: ```http://localhost:3000```
+* Production: ```https://koinx-qn08.onrender.com```
 ### Endpoints
 #### 1. Fetch Cryptocurrency Stats
-Endpoint: ```/api/stats```
-Method: ```GET```
+* Endpoint: ```/api/stats```
+* Method: ```GET```
 Query Parameters:
 ```coin```(required): The cryptocurrency identifier. Must be one of bitcoin, matic-network, or ethereum.
 Sample Request:
@@ -53,8 +53,8 @@ Error Responses:
 }
 ```
 #### 2. Calculation Standard Deviation
-Endpoint: /api/deviation
-Method: ```GET```
+* Endpoint: /api/deviation
+* Method: ```GET```
 Query Parameters:
 ```coin```(required): The cryptocurrency identifier. Must be one of bitcoin, matic-network, or ethereum.
 Sample Request:
