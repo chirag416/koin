@@ -27,11 +27,11 @@ node index.js
 #### 1. Fetch Cryptocurrency Stats
 * Endpoint: ```/api/stats```
 * Method: ```GET```
-Query Parameters:
+##### Query Parameters:
 ```coin```(required): The cryptocurrency identifier. Must be one of bitcoin, matic-network, or ethereum.
-Sample Request:
+##### Sample Request:
 ```GET``` ```http://localhost:3000/api/stats?coin=bitcoin``` OR ```https://koinx-qn08.onrender.com/api/stats?coin=bitcoin```
-Sample Response:
+##### Sample Response:
 ```javascript
 {
   "price": 40000,
@@ -39,7 +39,7 @@ Sample Response:
   "24hChange": 3.4
 }
 ```
-Error Responses:
+##### Error Responses:
 1. Missing ```coin``` parameter
 ```javascript
 {
@@ -55,17 +55,17 @@ Error Responses:
 #### 2. Calculation Standard Deviation
 * Endpoint: /api/deviation
 * Method: ```GET```
-Query Parameters:
+##### Query Parameters:
 ```coin```(required): The cryptocurrency identifier. Must be one of bitcoin, matic-network, or ethereum.
-Sample Request:
+##### Sample Request:
 ```GET``` ```http://localhost:3000/api/deviation?coin=bitcoin``` OR ```https://koinx-qn08.onrender.com/api/deviation?coin=bitcoin```
-Sample Response:
+##### Sample Response:
 ```javascript
 {
   "deviation": 4082.48
 }
 ```
-Error Responses:
+##### Error Responses:
 1. Missing ```coin``` parameter
 ```javascript
 {
