@@ -3,7 +3,7 @@ A Node.js application to fetch, store, and analyze cryptocurrency data for Bitco
 ## Installation and setup
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/chirag416/koin
+git clone https://github.com/chirag416/koin.git
 cd koin
 ```
 ### 2. Install Dependencies
